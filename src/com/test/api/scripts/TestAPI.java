@@ -2,10 +2,10 @@ package com.test.api.scripts;
 
 import com.jayway.restassured.response.Response;
 import com.test.api.endpoints.TestEndpoints;
-import org.testng.annotations.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import java.util.HashMap;
 
