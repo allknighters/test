@@ -16,7 +16,7 @@ jobs:
         run: mvn --quiet clean test -Dsurefire.suiteXmlFiles=testng.xml
 
       - name: Create folder and Save test results
-        run: mkdir staging && cp ./target/surefire-reports/* staging
+        run: mkdir staging && cp ./target/surefire-reports/junitreports/*.xml staging
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
