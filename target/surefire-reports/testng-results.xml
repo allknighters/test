@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="35551" started-at="2020-09-05T08:57:32Z" finished-at="2020-09-05T08:58:07Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="35551" started-at="2020-09-05T08:57:32Z" finished-at="2020-09-05T08:58:07Z">
+      <class name="com.ak.scripts.TestBookAPI">
+        <test-method status="PASS" signature="testBookByIsbnAPI()[pri:1, instance:com.ak.scripts.TestBookAPI@7fc2413d]" name="testBookByIsbnAPI" duration-ms="35535" started-at="2020-09-05T14:27:32Z" finished-at="2020-09-05T14:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookByIsbnAPI -->
+      </class> <!-- com.ak.scripts.TestBookAPI -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
