@@ -11,15 +11,13 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
+          
       - name: Build with Maven
         run: mvn --quiet clean test -Dsurefire.suiteXmlFiles=testng.xml
 
-  report:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Create folder and Save test results
         run: mkdir staging && find . -type f -regex "./target/surefire-reports/junitreports/*.xml" -exec cp {} staging \;
+
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
