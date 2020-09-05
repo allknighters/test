@@ -1,11 +1,11 @@
 package com.ak.scripts;
 
+import com.ak.endpoints.BookEndpoints;
 import com.jayway.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.ak.endpoints.BookEndpoints;
 
 import java.util.HashMap;
 
@@ -41,7 +41,6 @@ public class TestBookAPI {
 
         }
 
-
+        logger.info("Finished executing testBookByIsbnAPI");
     }
-
 }
