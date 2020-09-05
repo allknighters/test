@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70cbcf67-7314-4565-8e57-27f301196fcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="390">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -55,6 +42,10 @@
       <find>restassured</find>
       <find>); //</find>
       <find>surefire</find>
+      <find>com.jayway.restassured</find>
+      <find>commons-collec</find>
+      <find>testng</find>
+      <find>json</find>
     </findStrings>
     <replaceStrings>
       <replace>,&quot;</replace>
@@ -77,8 +68,8 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.github/workflows/maven.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.github/workflows/maven.yml" />
       </list>
     </option>
   </component>
@@ -151,6 +142,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,17 +490,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="390">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
