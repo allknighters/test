@@ -1,9 +1,9 @@
-package com.test.api.endpoints;
+package com.ak.endpoints;
 
 import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.given;
 
-public class TestEndpoints {
+public class BookEndpoints {
 
     public static Response getBookByIsbn(String url, String isbn, int responseCode) {
 

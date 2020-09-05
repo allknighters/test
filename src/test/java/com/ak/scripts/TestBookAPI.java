@@ -1,16 +1,15 @@
-package com.test.api.scripts;
+package com.ak.scripts;
 
 import com.jayway.restassured.response.Response;
-import com.test.api.endpoints.TestEndpoints;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import com.ak.endpoints.BookEndpoints;
 
 import java.util.HashMap;
 
-
-public class TestAPI {
+public class TestBookAPI {
     private Logger logger = LogManager.getLogger();
 
     @SuppressWarnings("unchecked")
@@ -37,8 +36,8 @@ public class TestAPI {
         for (Object isbn : isbns.keySet()
         ) {
 
-            Response response = TestEndpoints.getBookByIsbn(url, isbn.toString(), 200);
-            Assert.assertEquals(response.jsonPath().get("title").toString(), isbns.get(isbn));
+            Response resp = BookEndpoints.getBookByIsbn(url, isbn.toString(), 200);
+            Assert.assertEquals(resp.jsonPath().get("title").toString(), isbns.get(isbn));
 
         }
 
