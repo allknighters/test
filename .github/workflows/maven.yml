@@ -11,17 +11,21 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+  test:
+    needs: build
+    steps:
     - name: Run Test
       run: mvn --quiet clean test -Dsurefire.suiteXmlFiles=testng.xml
+
+  report:
+    needs: test
     - name: Save test result
       run: mkdir staging && cp target/surefire-reports/junitreports/.*xml staging
     - name: Upload Artifacts
