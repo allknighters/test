@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create folder and Save test results
-        run: mkdir -p ~/staging/ && find . -type f -regex "./target/surefire-reports/junitreports/.*xml" -exec cp {} ~/staging/ \;
+        run: mkdir staging && find . -type f -regex "./target/surefire-reports/junitreports/*.xml" -exec cp {} staging \;
       - name: Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Results
-          path: ~/staging
+          path: staging
