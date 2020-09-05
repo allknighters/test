@@ -20,10 +20,12 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build and test with Maven
+    - name: Run Test
       run: mvn --quiet clean test -Dsurefire.suiteXmlFiles=testng.xml
-    - run: mkdir staging && cp target/surefire-reports/junitreports/.*xml staging
-    - uses: actions/upload-artifact@v2
+    - name: Save test result
+      run: mkdir staging && cp target/surefire-reports/junitreports/.*xml staging
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
         with:
-          name: Results
+          name: Package
           path: staging
