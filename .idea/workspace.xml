@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="70cbcf67-7314-4565-8e57-27f301196fcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,35 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ak/scripts/TestBookAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ak/endpoints/BookEndpoints.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -80,7 +59,6 @@
         <option value="$PROJECT_DIR$/src/com/scripts/api/TestAPI.java" />
         <option value="$PROJECT_DIR$/src/com/scripts/api/scripts/TestAPI.java" />
         <option value="$PROJECT_DIR$/src/com/test/api/endpoints/TestEndpoints.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/test/api/scripts/TestAPI.java" />
         <option value="$PROJECT_DIR$/testscripts/com/test/api/scripts/TestAPI.java" />
         <option value="$PROJECT_DIR$/testscripts/com/test/api/scripts/TestBookReviewAPI.java" />
@@ -89,6 +67,7 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.github/workflows/maven.yml" />
       </list>
     </option>
@@ -465,13 +444,6 @@
     <entry file="file://$PROJECT_DIR$/src/com.scripts.api.TestFirstAPI.java" />
     <entry file="file://$PROJECT_DIR$/target/classes/com/test/api/scripts/TestAPI.class" />
     <entry file="file://$PROJECT_DIR$/target/classes/com/test/api/endpoints/TestEndpoints.class" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testscripts/src/com/test/api/scripts/TestBookReviewAPI.java" />
     <entry file="file://$PROJECT_DIR$/testscripts/com/test/api/scripts/TestAPI.java" />
     <entry file="file://$PROJECT_DIR$/testscripts/com/test/api/endpoints/TestEndpoints.java" />
@@ -485,13 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ak/scripts/TestBookAPI.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -507,15 +476,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1755">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="163" column="21" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ak/scripts/TestBookAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
